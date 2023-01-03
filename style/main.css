@@ -27,15 +27,15 @@
 body {
     text-align: center;
     text-align: -webkit-center;
-    cursor: url("C:/Users/Muhammed/Desktop/project/images/cur.png"), auto;
-    background-image: url('C:/Users/Muhammed/Desktop/project/images/bg.JPG');
+    cursor: url("../images/cur.png"), auto;
+    background-image: url('../images/bg.JPG');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
 a {
-    cursor: url("C:/Users/Muhammed/Desktop/project/images/curpointer.png"), auto;
+    cursor: url("../images/curpointer.png"), auto;
 }
 
 body .blur {
@@ -116,7 +116,7 @@ nav ul {
 nav ul li {
     list-style: none;
     display: inline-block;
-    cursor: url("C:/Users/Muhammed/Desktop/project/images/curpointer.png"), auto;
+    cursor: url("../images/curpointer.png"), auto;
     padding: 0px 15px;
 }
 
@@ -168,7 +168,7 @@ nav ul li a.current-page {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     display:block;
-    background-image: url('C:/Users/Muhammed/Desktop/project/images/bg.JPG');
+    background-image: url('../images/bg.JPG');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -190,19 +190,6 @@ nav ul li a.current-page {
     width: 15vw;
     left: 0;
 }
-/*
-.slider img:hover {
-    width: auto;
-    z-index: 999;
-    height: 650px;
-}
-
-.slider .imgs:hover>img:not(:hover) {
-    display: none;
-}
-*/
-/* end of slider */
-
 /* cards */
 
 .cards {
@@ -239,14 +226,14 @@ nav ul li a.current-page {
     color: var(--main-color);
 }
 
-/*
+
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     width: 50%;
     position: absolute;
     left: 25%;
 }
-*/
+
 
 .container {
     text-align: center;
@@ -453,7 +440,7 @@ aside ul li a:hover {
 
 .t-users tbody tr td i:hover{
     color: var(--main-color);
-    cursor: url("C:/Users/Muhammed/Desktop/project/images/curpointer.png"), auto;
+    cursor: url("../images/curpointer.png"), auto;
 }
 
 .t-users tbody tr:nth-child(odd){
