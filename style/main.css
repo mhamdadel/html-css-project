@@ -154,20 +154,20 @@ nav ul li a.current-page {
 }
 
 .slider .bouns {
-    background-color:black;
-    overflow:hidden;
-    display:block; 
-    padding:10px; 
-    font-weight:bold;
-    font-family:arial;
-    color:transparent;
+    background-color: black;
+    overflow: hidden;
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+    font-family: arial;
+    color: transparent;
     font-size: 65px;
 }
 
 .slider .bouns span {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    display:block;
+    display: block;
     background-image: url('../images/bg.JPG');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -190,6 +190,7 @@ nav ul li a.current-page {
     width: 15vw;
     left: 0;
 }
+
 /* cards */
 
 .cards {
@@ -382,7 +383,7 @@ aside ul li a:hover {
         margin-bottom: 10px;
     }
 
-    main nav header a{
+    main nav header a {
         margin: 0;
         width: 40%;
         text-align: left;
@@ -393,48 +394,52 @@ aside ul li a:hover {
         width: 80%;
     }
 
-    main nav ul li{
+    main nav ul li {
         padding: 0px;
     }
 
     table.f-header td {
         padding-left: 10px;
         padding-right: 10px;
-    } 
+    }
 
     aside {
-        padding-top : 25px;
+        padding-top: 25px;
     }
+
+    aside:hover {
+        width: 80vw;
+    }
+
 }
 
-.t-users{
+.t-users {
     border-collapse: collapse;
     font-size: 2vw;
 }
 
-.t-users thead tr th{
+.t-users thead tr th {
     border: 1px solid;
-    background-color: black; 
+    background-color: black;
     color: white;
     padding: 5px;
 }
 
-.t-users tbody tr td{
+.t-users tbody tr td {
     border: 1px solid;
     padding: 5px 10px;
     text-align: center;
 }
 
-.t-users tbody tr td i:hover{
+.t-users tbody tr td i:hover {
     color: var(--main-color);
     cursor: url("../images/curpointer.png"), auto;
 }
 
-.t-users tbody tr:nth-child(odd){
+.t-users tbody tr:nth-child(odd) {
     background-color: rgb(255, 255, 255);
 }
 
-.t-users tbody tr:nth-child(even){
+.t-users tbody tr:nth-child(even) {
     background-color: rgba(128, 128, 128, 0.829);
 }
-
