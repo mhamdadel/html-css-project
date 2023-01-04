@@ -32,6 +32,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center center;
 }
 
 a {
@@ -108,9 +109,9 @@ nav a #logo {
 }
 
 nav ul {
+    display: inline-block;
     float: right;
     margin-left: auto;
-    display: inline-block;
 }
 
 nav ul li {
@@ -270,8 +271,8 @@ table.f-header {
 }
 
 table.f-header td {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 table.f-header td:not(:first-child) {
@@ -374,19 +375,23 @@ aside ul li a:hover {
         clip-path: none;
     }
 
+    main nav #logo {
+        margin-top: 5px;
+    }
+
     main nav header {
-        height: 50px;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-evenly;
+        display: block;
         margin-bottom: 10px;
+        text-align: center;
     }
 
     main nav header a {
-        margin: 0;
-        width: 40%;
-        text-align: left;
+        margin: 0 auto;
+        padding: 5px 10vw 5px;
+    }
+
+    main nav header a span {
+        display: none;
     }
 
     main nav ul {
@@ -395,7 +400,7 @@ aside ul li a:hover {
     }
 
     main nav ul li {
-        padding: 0px;
+        width: 25%;
     }
 
     table.f-header td {
